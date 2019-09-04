@@ -1,4 +1,4 @@
-# Workshop: Cypress.io handson and Test Isolation
+# Workshop: Cypress.io Handson and Test Isolation
 
 Origin App was forked from [ruslanzharkov/nodejs-shopping-cart](https://github.com/ruslanzharkov/nodejs-shopping-cart)
 
@@ -52,7 +52,7 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 ## Materials
 
 ### E2E Test Tools
-![test_isolation](https://user-images.githubusercontent.com/54438809/63830440-b7f7d900-c99e-11e9-8b6a-b8c287a3b31a.png)
+![testing_tools](https://user-images.githubusercontent.com/54438809/63830440-b7f7d900-c99e-11e9-8b6a-b8c287a3b31a.png)
 
 ### Three Levels of Test Isolation
 
@@ -73,6 +73,8 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 - Provision multiple sets of environment?
   - cost ⬆️ 💸💸💸
   - need to merge test results
+
+![test_Context](https://user-images.githubusercontent.com/54438809/64221755-774d1200-cf00-11e9-8718-4eadfaf61f1e.png)
 
 #### (3) Isolating the System under test
 
