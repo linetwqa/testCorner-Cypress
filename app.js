@@ -21,7 +21,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(`${global.gConfig.DATABASE_URL}/${global.gConfig.DATABASE_NAME}`, {
   keepAlive: true,
   useNewUrlParser: true,
-  reconnectTries: Number.MAX_VALUE
+  useUnifiedTopology: true
 });
 require("./config/passport");
 
