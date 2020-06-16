@@ -10,32 +10,40 @@ You need to install Nodejs (v8+) and Docker Desktop or MongoDB.
 
 Command to run MongoDB with docker container:
 
-```
+```shell
 docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 ```
 
 ## Installation Guide
 
 - Clone this project & install dependencies
-  ```
+
+  ```shell
   git clone https://github.com/linetwqa/testCorner-Cypress.git
   cd testCorner-Cypress
   npm install && npm install -g npx
   ```
+
 - Seeding initial data:
-  ```
+
+  ```shell
   npm run test:seed
   ```
+
 - To start application server
-  ```
+
+  ```shell
   npm run start
   ```
+
 - Open localhost:3000 in your browser
 
 - To open Cypress test runner
-  ```
+
+  ```shell
   npm run cy:open
   ```
+
 ## Testing Folder Structure
 
 - Cypress test cases: /tests/cypress/integration
@@ -52,6 +60,7 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 ## Materials
 
 ### E2E Test Tools
+
 ![testing_tools](https://user-images.githubusercontent.com/54438809/63830440-b7f7d900-c99e-11e9-8b6a-b8c287a3b31a.png)
 
 ### Three Levels of Test Isolation
@@ -88,4 +97,8 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 
 ### Reference
 
-- Official [API & examples](https://docs.cypress.io/api/api/table-of-contents.html) 
+- Official [API & examples](https://docs.cypress.io/api/api/table-of-contents.html)
+- [jQuery selectors](https://api.jquery.com/category/selectors/)
+- [Best practices](https://github.com/testing-library/cypress-testing-library) for BDD
+- [Component tests](https://glebbahmutov.com/blog/my-vision-for-component-tests/#component-test)
+- [Best practices](https://docs.cypress.io/guides/references/best-practices.html) for test automation

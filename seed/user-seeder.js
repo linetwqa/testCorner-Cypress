@@ -11,7 +11,7 @@ mongoose.connect(`${global.gConfig.DATABASE_URL}/${global.gConfig.DATABASE_NAME}
 })
 
 function exit() {
-  console.log('Seeding products collection done!')
+  console.log('Seeding users collection done!')
   mongoose.disconnect()
 }
 
